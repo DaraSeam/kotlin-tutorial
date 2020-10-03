@@ -57,4 +57,5 @@ fun main(args: Array<String>){
         |friend
     """.trimMargin()
     println(string5)
+    println()
 }
