@@ -26,12 +26,16 @@ fun main(args: Array<String>){
     }
     var mul = mul(3,4)
     println("Multiply of a and b is: $mul")
+    println()
 
     // second example
 
     fun student_info(name: String, age: Int, gender: Char) {
-
+        println("Student's name: $name")
+        println("Student's age: $age")
+        println("Student's gender: $gender")
     }
+    student_info("Dara Seam", 18, 'M')
 }
 
 
