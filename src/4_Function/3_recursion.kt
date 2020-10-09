@@ -13,6 +13,7 @@ fun fact(n: Int): Long{
 }
 fun main (args: Array<String>){
     println("Factorial of 4 is: "+fact(5))
+    println("Hello World")
 }
 
 //first step:
@@ -20,7 +21,6 @@ fun main (args: Array<String>){
 //f(3)= 3*f(2)
 //f(2)= 2*f(1)
 //f(1)= 1 according to condition
-
 //second step time to evaluate:
 //f(2) = 2*1 = 2
 //f(3) = 3*2 = 6
